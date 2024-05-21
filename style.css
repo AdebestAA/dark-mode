@@ -1,0 +1,27 @@
+:root {
+    --lightHeaderColor:red;
+    --lightParagraphColor:green;
+    --bgColor:whitesmoke;
+}
+
+.light-theme{
+    --lightHeaderColor: red;
+     --lightParagraphColor: green;
+    --bgColor: whitesmoke;
+}
+.dark-theme{
+    --lightHeaderColor: grey;
+     --lightParagraphColor: blue;
+    --bgColor: black;
+}
+
+body{
+    background: var(--bgColor);
+    transition: all 0.3s linear;
+}
+.header{
+    color: var(--lightHeaderColor);
+}
+.paragraph{
+    color: var(--lightParagraphColor);
+}
